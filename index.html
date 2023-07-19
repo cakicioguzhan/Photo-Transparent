@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beyaz Katman Ekleme ve TIFF Olarak Kaydetme</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Save white layer as TIFF</h1>
+
+    <div class="input">
+      <label for="image-upload" class="custom-file-upload">
+        Dosya Seç
+        <input type="file" id="image-upload" accept="image/*" />
+      </label>
+    </div>
+
+    <div id="canvas-container">
+      <canvas id="image-canvas"></canvas>
+    </div>
+    <div class="button-container">
+      <button id="save-button">Save as TIFF</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="tiff.js-master/tiff.js-master/tiff.min.js"></script>
+    <script src="tiff.js-master/tiff.js-master/tiff.js"></script>
+    <script src="tiff.js-master/tiff.js-master/pre.js"></script>
+    <script src="tiff.js-master/tiff.js-master/post.js"></script>
+    <script src="tiff.js-master/tiff.js-master/node_example.js"></script>
+  </body>
+</html>
